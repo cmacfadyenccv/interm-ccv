@@ -42,7 +42,7 @@ public class DataTypes {
 		long anotherLong = age;
 
 
-		//Floating-point types (have a decimal point)
+		//Floating-point types (numbers with decimal points)
 		double speed = 45.8;
 		float floatSpeed = 58.4f; //note the f (or F) for float
 
