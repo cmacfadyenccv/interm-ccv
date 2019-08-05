@@ -15,8 +15,8 @@ public class DataTypes {
 
 	public static void main(String[] args) {
 
-		//primtiveTypes();
-		//referenceTypes();
+		primtiveTypes();
+		referenceTypes();
 		//convertTypes();
 		operations();
 
@@ -44,7 +44,7 @@ public class DataTypes {
 		double speed = 45.8;
 		float floatSpeed = 58.4f; //note the f (or F) for float
 
-		System.out.println();
+		System.out.println(age);
 
 	}
 
@@ -52,7 +52,7 @@ public class DataTypes {
 	 * Demonstrates reference types in Java
 	 * Reference types are objects built from classes
 	 */
-	private static void ReferenceTypes() {
+	private static void referenceTypes() {
 
 		Scanner input = new Scanner(System.in);
 		Random generator = new Random();
