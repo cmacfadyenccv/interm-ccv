@@ -1,6 +1,6 @@
 /**
- * Review of data types from an introductory course in Java, e.g. CIS2271
- * Introductio to some new types
+ * Review of data types from an introductory course in Java, e.g. CCV CIS2271
+ * Introduction to some new types
  * 
  * @author C MacFadyen
  */
