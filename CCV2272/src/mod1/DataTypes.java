@@ -15,7 +15,7 @@ public class DataTypes {
 
 	public static void main(String[] args) {
 
-		primtiveTypes();
+		primitiveTypes();
 		referenceTypes();
 		//convertTypes();
 		operations();
@@ -25,9 +25,11 @@ public class DataTypes {
 
 	/**
 	 * Demonstrates primitive types in Java
+	 * Introduces options other than int for integer types
+	 * and float as well as double for floating-point
 	 */
 
-	private static void primtiveTypes() {
+	private static void primitiveTypes() {
 		boolean isOpen = false;
 
 		char firstInitial = 'c'; //note the single quotes
@@ -78,11 +80,15 @@ public class DataTypes {
 	
 	private static void operations() {
 		//arithmetic
+		int result = 22 / 5;
+		result = 22 % 5;
+		result = 9 + 22 / 5;
+		System.out.println(result);
 		
 		
 		//String concatenation
-		
-		
+		String stem = "The answer is: ";
+		System.out.println(stem + 3 + 7);
 		
 	}
 }
