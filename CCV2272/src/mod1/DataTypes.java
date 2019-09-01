@@ -63,7 +63,7 @@ public class DataTypes {
 		String s = new String("Strings are sequences of characters");
 		String easyWay = "This is a shortcut notation for the line above";
 
-		CCVstudent student = new CCVstudent(12345, "Jane Doe"); 	//we would need to write a class here
+		CCVstudent student = new CCVstudent(12345, "Jane Doe");
 		
 		Object o = (Object)student; //casting a reference type
 		System.out.println(rect.x);
