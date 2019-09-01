@@ -16,9 +16,9 @@ public class DataTypes {
 	public static void main(String[] args) {
 
 		primitiveTypes();
-		referenceTypes();
+		//referenceTypes();
 		//convertTypes();
-		operations();
+		//operations();
 
 
 	}
@@ -46,7 +46,7 @@ public class DataTypes {
 		double speed = 45.8;
 		float floatSpeed = 58.4f; //note the f (or F) for float
 
-		System.out.println(age);
+		System.out.println(anotherLong); //change to see other output
 
 	}
 
@@ -58,12 +58,15 @@ public class DataTypes {
 
 		Scanner input = new Scanner(System.in);
 		Random generator = new Random();
-		Rectangle rect = new Rectangle();
+		Rectangle rect = new Rectangle(5, 8, 20, 30);
 
 		String s = new String("Strings are sequences of characters");
 		String easyWay = "This is a shortcut notation for the line above";
 
-		//CCVstudent student = new CCVstudent(); 	//we would need to write a class here
+		CCVstudent student = new CCVstudent(12345, "Jane Doe"); 	//we would need to write a class here
+		
+		Object o = (Object)student; //casting a reference type
+		System.out.println(rect.x);
 	}
 
 
@@ -71,8 +74,11 @@ public class DataTypes {
 	private static void convertTypes() {
 		int x = 87;
 		double y = 54.7;
-		char z = '9'; //the character 9
+		char z = 'A'; //the character 9
 
+		y = x;
+		x = z;
+		x = (int)y;
 		x = z;
 		
 		System.out.println(x);
@@ -80,15 +86,15 @@ public class DataTypes {
 	
 	private static void operations() {
 		//arithmetic
-		int result = 22 / 5;
-		result = 22 % 5;
-		result = 9 + 22 / 5;
+		int result = 22 / 5; //integer division
+		result = 22 % 5; //modulus (mod) is remainder
+		result = 9 + 22 / 5; //order of operations
 		System.out.println(result);
 		
 		
 		//String concatenation
 		String stem = "The answer is: ";
-		System.out.println(stem + 3 + 7);
+		System.out.println(stem + (3 + 7));
 		
 	}
 }
