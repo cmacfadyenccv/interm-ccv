@@ -35,5 +35,15 @@ public class CCVstudent {
 		this.name = name;
 	}
 	
+	/**toString provides a String representation of an object.
+	*  It is called by default by print and println
+	*  in System.in
+	*  For example, if c is an instance of CCVStudent (or any Object)
+	*  System.out.println(c); is equivalent to
+	*  System.out.println(c.toString());
+	*/
+	public String toString() {
+		return ("ID: " + id + "\nName: " + name);
+	}
 	
 }
