@@ -1,4 +1,4 @@
-package mod3;
+package mod5;
 
 public class SoccerPlayer extends Player{
 //instance data
