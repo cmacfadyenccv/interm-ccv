@@ -1,4 +1,4 @@
-package jul30;
+package mod4;
 
 //KITCHEN CLASS
 public class Kitchen extends Room {
