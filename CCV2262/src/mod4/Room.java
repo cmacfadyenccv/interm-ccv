@@ -1,4 +1,4 @@
-package jul30;
+package mod4;
 
 //ROOM CLASS
 public class Room {
