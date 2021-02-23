@@ -1,4 +1,4 @@
-package mod3;
+package mod5;
 
 public class SoccerGoalkeeper extends SoccerPlayer{
 
