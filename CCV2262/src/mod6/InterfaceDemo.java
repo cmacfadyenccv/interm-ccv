@@ -1,4 +1,4 @@
-package mod4;
+package mod6;
 
 public interface InterfaceDemo {
 
